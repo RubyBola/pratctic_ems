@@ -152,8 +152,8 @@ function anAction(){
 // const results = await Promise.all([fetchfromAPI(),anAction()])
 // console.log(results)
 
-// const together = await[fetchfromAPI(),anAction()]
-// console.log(together)
+const together = await[fetchfromAPI(),anAction()]
+console.log(together)
 
 // setTimeout(()=> {console.log("Glory!!!!!!,God has done it")},2000)
 
