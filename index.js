@@ -41,7 +41,7 @@ console.log(value());
 
 // const vehicle = new VEHICLE("Toyota");
 // console.log(vehicle.fetchOwner());
-// console.log(noOfWheels);
+console.log(nomotor);
 
 // console.log(import.meta.url);
 // console.log(_filename);
