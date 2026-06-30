@@ -55,21 +55,21 @@ import{vat as vatfood,foodName,flour,toppings,price} from './food.js';
 // console.log(bookImport.value());
 
 //14. Destructuring
-    // const array = ["value 1", "value 2", "value 3"];
-    // const [result1, , result3] = array;
-    // console.log(result3);
-    // // const [result1, result2] = ["value 1", "value 2"];
-    // // console.log(result1); // Output: value 1
-    // // console.log(result2); // Output: value 2
-    // const obj = { key1: "value 1", key2: "value 2" };
-    // const { key1, key2 } = obj;
-    // console.log(key1);
-    // console.log(key2);
-    // const array2 = [1, 2, 3, 4, 5];
-    // const [first, second, ...rest] = array2;
-    // console.log(first);
-    // console.log(second);
-    // console.log(rest);
+    const array = ["value 1", "value 2", "value 3"];
+    const [result1, , result3] = array;
+    console.log(result3);
+    // const [result1, result2] = ["value 1", "value 2"];
+    // console.log(result1); // Output: value 1
+    // console.log(result2); // Output: value 2
+    const obj = { key1: "value 1", key2: "value 2" };
+    const { key1, key2 } = obj;
+    console.log(key1);
+    console.log(key2);
+    const array2 = [1, 2, 3, 4, 5];
+    const [first, second, ...rest] = array2;
+    console.log(first);
+    console.log(second);
+    console.log(rest);
 
     // const obj2 = { a: 1, b: 2, c: 3, d: 4 };
     // const { a, b, ...restObj } = obj2;
