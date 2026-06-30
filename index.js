@@ -29,15 +29,15 @@ import{vat as vatfood,foodName,flour,toppings,price} from './food.js';
 // }
 //  loadModule();
 
-// const module = await import('./our_modules/index.js'); 
-// console.log(module.invoices());
-// console.log(module.payments());
-// console.log(vat);
-// console.log(amount());
-// const payment = new Payment("John Doe");
-// console.log(payment.fetchPayer());
-// console.log(bookName); 
-// console.log(value());
+const module = await import('./our_modules/index.js'); 
+console.log(module.invoices());
+console.log(module.payments());
+console.log(vat);
+console.log(amount());
+const payment = new Payment("John Doe");
+console.log(payment.fetchPayer());
+console.log(bookName); 
+console.log(value());
 
 // const vehicle = new VEHICLE("Toyota");
 // console.log(vehicle.fetchOwner());
